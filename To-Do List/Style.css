@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    font-family: fantasy;
+   }
+#taskInput {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  #addTaskBtn {
+    padding: 10px;
+    background: thistle;
+    color: black;
+    font-size: 16px;
+    border-radius: 40px;
+    cursor: pointer;
+  }
+  .taskItem {
+    margin-bottom: 5px;
+  }
+  .completedTask {
+    text-decoration: line-through;
+    color: #aaa;
+  }
+  .taskDetails {
+    font-size: 0.8em;
+    color: #666;
+  }
+  .container{
+    width: 100%;
+    min-width: 100vh;
+    height: 100%;
+    background: linear-gradient(135deg,#153677,#4e085f);
+    padding: 180px;
+    display: flex;
+  }
+  .todo-app{
+    width: 100%;
+    max-width: 500px;
+    background: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .todo-app h1{
+    color: #002765;
+    display: flex;        
+}
+input{
+    flex: 1;
+    border: thistle;
+    border-radius: 40px;
+    outline: thistle;
+    background: transparent;
+    font-weight: 14px;
+    padding: 10px;
+}
+#addTaskBtn{
+  font-family: fantasy;
+}
+#addTaskBtn:hover{
+  background-color: rgb(178, 68, 178);
+  transition: all 0.4s ease;
+  transform: scale(0.9,0.9);
+}
